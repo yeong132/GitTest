@@ -12,4 +12,6 @@ class PRACTICEGIT1_API AGitTestActor : public AActor
 public:	
 	AGitTestActor();
 
+	virtual void BeginPlay() override;
+
 };
