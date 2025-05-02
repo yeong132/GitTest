@@ -16,6 +16,7 @@ void ARifle::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	UE_LOG(LogTemp, Display, TEXT("내가 먼저 수정함 ㅋ"));
 }
 
 // Called every frame
